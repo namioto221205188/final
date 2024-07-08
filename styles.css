@@ -36,7 +36,7 @@ nav ul li a {
     padding: 100px 20px;
 }
 .hero img {
-    max-width: 200%;
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
@@ -56,4 +56,16 @@ main {
     padding-bottom: 50px;
 }
 
+/* Media Queries for mobile devices */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
 
+    .hero {
+        height: auto;
+        padding: 50px 20px;
+    }
+}
